@@ -12,5 +12,6 @@ class UserSerializer(serializers.ModelSerializer):
         # We don't want to return password when we givin information of this user
 
         def create(self, validated_data):
+            print(validated_data)
             user = User.objects.create_user(**validated_data)
             return user
