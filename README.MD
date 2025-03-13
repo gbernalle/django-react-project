@@ -81,3 +81,14 @@ Finally, scroll to the botton and add this
 
 `CORS_ALLOW_ALL_ORIGINS = True`  
 `CORS_ALLOWS_CREDENTIALS = True`
+
+
+### Creating Migrations
+inside backend directory  
+`python manage.py makemigrations`  
+Create the migrations  
+`python manage.py migrate`  
+Apply the migrations
+
+Than when everthings is setup, you can run by simply run this code on terminal:  
+`python manage.py runserver`
