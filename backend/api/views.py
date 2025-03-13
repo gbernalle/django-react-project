@@ -10,7 +10,7 @@ from .serializers import UserSerializer
 class CreateUserView(generics.CreateAPIView):
     queryset = User.objects.all()
     # Verify every objects for indefy that we can create a unique User
-    serializer_class = User
+    serializer_class = UserSerializer
     # Tells this view what kind of data we need to accept to make new User
     permission_classes = [AllowAny]
     # Who can actually call this
