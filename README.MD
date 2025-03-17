@@ -92,3 +92,6 @@ Apply the migrations
 
 Than when everthings is setup, you can run by simply run this code on terminal:  
 `python manage.py runserver`
+
+### Building the FrontEnd
+`npm install axios react-router-dom jwt-decode`
